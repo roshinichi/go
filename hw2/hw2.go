@@ -85,7 +85,7 @@ func main() {
 		@Marshal function
 		@returns the JSON encoding
 	*/
-	j, _ := json.MarshalIndent(pm1, "|", "   ")
+	j, _ := json.MarshalIndent(pm1, "", "   ")
 	fmt.Println(string(j))
 	fmt.Println("End of Arceus")
 }
